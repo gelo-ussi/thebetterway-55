@@ -1,5 +1,16 @@
 .header-title {
-  color: white; }
+  color: white;
+  font-size: 3rem; }
+  @media (max-width: 480px) {
+    .header-title {
+      font-size: 1rem; } }
 
 p {
   color: black; }
+
+nav ul li {
+  display: inline-block;
+  margin-right: 2rem; }
+  nav ul li a {
+    text-decoration: none;
+    color: white; }
